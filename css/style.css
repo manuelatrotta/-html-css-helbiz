@@ -139,8 +139,17 @@ header {
 }
 .helbiz{
   padding: 6% 1%;
+  text-align: center;
 }
 .background_lightgrey{
   height: 500px;
   background-color: #fafafa;
+}
+.size_30{
+  width: 30%;
+}
+.majorsign{
+  content: "&gt;";
+  display: table;
+  clear: both;
 }
