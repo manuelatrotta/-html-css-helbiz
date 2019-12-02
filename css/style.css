@@ -175,3 +175,26 @@ background-color: #fafafa;
   .col-xs-12{
     margin-bottom: 30px;
   }
+}
+/*section helbiz-work*/
+.text_aligne_center{
+  text-align: center;
+}
+.img-helbiz-work{
+  height: 30%;
+}
+#iphone{
+  width: 80%;
+}
+.relative{
+  position: relative;
+}
+#i-phone{
+  position: absolute;
+  top: 80%;
+  left: 30%;
+  transform: translateY(-50%);
+}
+#i-phone{
+  width: calc((100% / 12) * 4);
+}
