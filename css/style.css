@@ -137,13 +137,16 @@ header {
     width: 100%;
   }
 }
+/*section helbiz*/
 .helbiz{
   padding: 6% 1%;
   text-align: center;
 }
 .background_lightgrey{
-  height: 500px;
-  background-color: #fafafa;
+background-color: #fafafa;
+}
+.helbiz > div:first-of-type{
+  margin-right: 5px;
 }
 .size_30{
   width: 30%;
@@ -152,4 +155,13 @@ header {
   content: "&gt;";
   display: table;
   clear: both;
+}
+.size_40{
+  width: 40%;
+}
+.padding_5{
+  padding: 5%;
+}
+.line_height60{
+  line-height: 60px;
 }
