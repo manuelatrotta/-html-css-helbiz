@@ -149,9 +149,18 @@ background-color: #fafafa;
   width: 30%;
 }
 .majorsign::after{
-  content: "&gt;";
+  content: ">";
   display: table;
   clear: both;
+  display: inline;
+  margin-left: 3%;
+  font-size: 1.8em;
+  width: 15%;
+  color: #0070c8;
+}
+.majorsign a{
+  font-size: 1.9em;
+  color: #0070c8;
 }
 .size_40{
   width: 40%;
