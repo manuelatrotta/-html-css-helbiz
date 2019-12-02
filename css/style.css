@@ -155,7 +155,6 @@ background-color: #fafafa;
   display: inline;
   margin-left: 3%;
   font-size: 1.8em;
-  width: 15%;
   color: #0070c8;
 }
 .majorsign a{
@@ -171,3 +170,8 @@ background-color: #fafafa;
 .line_height60{
   line-height: 60px;
 }
+/*mediaquery xs*/
+@media screen and (max-width: 768px) {
+  .col-xs-12{
+    margin-bottom: 30px;
+  }
