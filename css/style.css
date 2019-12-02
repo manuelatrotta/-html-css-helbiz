@@ -4,7 +4,6 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 10px;
-  background-color: red;
 }
 
 .container_1000 {
@@ -143,10 +142,19 @@ header {
   text-align: center;
 }
 .background_lightgrey{
-background-color: #fafafa;
+  background-color: #fafafa;
 }
 .size_30{
   width: 30%;
+}
+.size_40{
+  width: 40%;
+}
+.padding_5{
+  padding: 5%;
+}
+.line_height60{
+  line-height: 60px;
 }
 .majorsign::after{
   content: ">";
@@ -161,15 +169,7 @@ background-color: #fafafa;
   font-size: 1.9em;
   color: #0070c8;
 }
-.size_40{
-  width: 40%;
-}
-.padding_5{
-  padding: 5%;
-}
-.line_height60{
-  line-height: 60px;
-}
+
 /*mediaquery xs*/
 @media screen and (max-width: 768px) {
   .col-xs-12{
@@ -183,20 +183,18 @@ background-color: #fafafa;
 .img-helbiz-work{
   height: 30%;
 }
-#iphone{
-  width: 80%;
-}
 .relative{
   position: relative;
 }
+#iphone{
+  width: 80%;
+}
 #i-phone{
   position: absolute;
+  width: calc((100% / 12) * 4);
   top: 10%;
   left: 30%;
   transform: translateY(-50%);
-}
-#i-phone{
-  width: calc((100% / 12) * 4);
 }
 .h3-iphone{
   font-size: 3em;
