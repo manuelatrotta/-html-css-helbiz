@@ -145,13 +145,10 @@ header {
 .background_lightgrey{
 background-color: #fafafa;
 }
-.helbiz > div:first-of-type{
-  margin-right: 5px;
-}
 .size_30{
   width: 30%;
 }
-.majorsign{
+.majorsign::after{
   content: "&gt;";
   display: table;
   clear: both;
