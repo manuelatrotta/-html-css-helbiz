@@ -211,3 +211,14 @@ background-color: #fafafa;
   font-size: 0.9em;
   color: grey;
 }
+/*media query md xs section-helbiz-work*/
+@media screen and (max-width: 768px) {
+  .col-lg-4{
+    display: none;
+  }
+}
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  .col-lg-4{
+    display: none;
+  }
+}
