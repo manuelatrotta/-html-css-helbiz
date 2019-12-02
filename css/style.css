@@ -137,3 +137,10 @@ header {
     width: 100%;
   }
 }
+.helbiz{
+  padding: 6% 1%;
+}
+.background_lightgrey{
+  height: 500px;
+  background-color: #fafafa;
+}
