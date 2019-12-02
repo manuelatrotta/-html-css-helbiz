@@ -191,10 +191,23 @@ background-color: #fafafa;
 }
 #i-phone{
   position: absolute;
-  top: 20%;
+  top: 10%;
   left: 30%;
   transform: translateY(-50%);
 }
 #i-phone{
   width: calc((100% / 12) * 4);
+}
+.h3-iphone{
+  font-size: 3em;
+  text-align: left;
+}
+.col-step{
+  text-align: left;
+  font-size: 2em;
+  line-height: 30px;
+}
+.col-step span{
+  font-size: 0.9em;
+  color: grey;
 }
